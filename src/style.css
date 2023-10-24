@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F55A5A;
+    padding: 20px 0px;
+    gap: 8px;
+    max-height: 80px;
+}
+
+.navbar--title {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.navbar--icon {
+    color: #FFF;
+    height: 24px;
+}
+
+/* Card */
+
+.card--list {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 200px;
+}
+
+.card--img {
+    padding: 0px 20px;
+    margin-left: 90px;
+}
+
+.card--img--photo {
+    max-width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card--img--photo:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.card--location {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.card--pin {
+    color: #F55A5A;
+    height: 20px;
+}
+
+.card--location > h1 {
+    color: #2B283A;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.75px;
+    margin-right: 5px;
+}
+
+.card--location > a {
+    color: #918E9B;
+    font-size: 15px;
+}
+
+.card--info {
+    padding: 15px 10px;
+}
+
+.card--info > h1 {
+    color: #2B283A;
+    font-size: 37.5px;
+    margin-top: 0;
+}
+
+.card--info > h3 {
+    color: #2B283A;
+    font-size: 15px;
+}
+
+.card--info > p {
+    color: #2B283A;
+    font-size: 15px;
+    line-height: 150%;
+    width: 100%;
+}
+
+.card--hr {
+    border: 1px solid #000;
+    width: 65%;
+    margin-left: 309px;
+}
